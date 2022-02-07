@@ -21,7 +21,7 @@ POST /chartas/?width={width}&height={height}
 Код ответа: `201 Created`.
 
 ```
-POST /chartas/{id}/{x}/{y}/?width={width}&height={height}
+POST /chartas/{id}/?x={x}&y={y}&width={width}&height={height}
 ```
 Сохранить восстановленный фрагмент изображения размера `{width} x {height}` с координатами `({x};{y})`.
 Под координатами подразумевается положение левого верхнего угла фрагмента относительно левого верхнего угла всего изображения.
